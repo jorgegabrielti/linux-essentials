@@ -1,6 +1,6 @@
 
 
-
+# Debian like systems
 **Search packages by name:**
 ```bash
 apt-cache search package_name
@@ -35,3 +35,13 @@ After the download is complete:
 - the command becomes available
 
 ![img](img/1.1-1.png)
+
+# Red Hat like systems
+**Search packages by name:**
+```bash
+yum search package_name
+```
+
+```bash
+dnf search package_name
+```
