@@ -60,3 +60,31 @@ Then install
 ```bash
 sudo dnf install -y cowsay
 ```
+
+## Package Removal
+The same commands used to install packages are used to remove them. All the commands accept the
+remove keyword to uninstall an installed package: 
+
+**for DEB packages:**
+
+```bash
+apt-get remove package_name
+```
+
+```bash
+apt remove package_name
+```
+
+**for RPM packages:**
+```bash 
+yum remove package_name
+```
+
+```bash
+dnf remove package_name
+```
+
+>[**NOTE**]
+> 
+> The **`sudo`** command is also needed to perform the removal.
+
