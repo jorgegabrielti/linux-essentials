@@ -48,5 +48,9 @@ dnf search package_name
 
 **Search based in descritives terms**
 ```bash
+dnf search descritive_term
+```
+
+```bash
 dnf search speaking cow
 ```
