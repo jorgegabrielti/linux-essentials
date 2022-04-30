@@ -54,3 +54,9 @@ dnf search descritive_term
 ```bash
 dnf search speaking cow
 ```
+![img](img/1.1-2.png)
+
+Then install
+```bash
+sudo dnf install -y cowsay
+```
