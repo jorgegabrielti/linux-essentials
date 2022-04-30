@@ -45,3 +45,8 @@ yum search package_name
 ```bash
 dnf search package_name
 ```
+
+**Search based in descritives terms**
+```bash
+dnf search speaking cow
+```
