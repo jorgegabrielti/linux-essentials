@@ -1,0 +1,17 @@
+---
+ - name: 'linux-essential-1.6'
+   box: 'jgabriel/rockylinux-8.5'
+   box_name: 'linux-essential-1.6'
+   box_version: "1.0"
+   box_provider: 'virtualbox'
+   hostname: 'zabbix-server'
+   dir_host: '/home/gabriel/projects/03-observability/metrics/zabbix-projects/src'
+   dir_guest: '/vagrant'
+   cpu: '1'
+   ram: '1024'
+   disk: '30GB'
+   vmgui: 'false'
+   host_port: '10050' 
+   guest_port: '22'
+   file_provision: './provision/boot-strap.sh'
+...
