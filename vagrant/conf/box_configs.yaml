@@ -4,8 +4,8 @@
    box_name: 'linux-essential-1.6'
    box_version: "1.0"
    box_provider: 'virtualbox'
-   hostname: 'zabbix-server'
-   dir_host: '/home/gabriel/projects/03-observability/metrics/zabbix-projects/src'
+   hostname: 'linux-essentials'
+   dir_host: '/home/gabriel/projects/00-base/linux/linux-essentials'
    dir_guest: '/vagrant'
    cpu: '1'
    ram: '1024'
