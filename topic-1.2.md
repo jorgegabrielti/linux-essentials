@@ -15,7 +15,7 @@ apt search package_name
 
 >[**NOTE**]
 > 
-> This commands need to root privileges to work.
+> This commands need to root privileges to work. For this reason, the 'sudo' command is ahead.
 
 ```bash
 sudo apt-get install -y package_name
