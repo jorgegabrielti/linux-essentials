@@ -33,3 +33,5 @@ After the download is complete:
 - all files are copied to the appropriate locations
 - any additional configuration is performed
 - the command becomes available
+
+![img](img/1.1-1.png)
