@@ -16,7 +16,7 @@
    file_provision: './provision/boot-strap.sh'
 
  - name: 'linux-essential-debian-1.6'
-   box: 'debian'
+   box: 'debian/buster64'
    box_name: 'linux-essential-1.6'
    box_version: "1.0"
    box_provider: 'virtualbox'
